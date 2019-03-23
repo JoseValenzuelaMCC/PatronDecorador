@@ -27,4 +27,14 @@ public class Kryptonita extends GemaDecorador {
     public String getNombre() {
         return this.guerrero.getNombre();
     }
+
+    @Override
+    public int getPosicion() {
+        return this.guerrero.getPosicion();
+    }
+
+    @Override
+    public void setPosicion(int pos) {
+        this.guerrero.setPosicion(pos);
+    }
 }
